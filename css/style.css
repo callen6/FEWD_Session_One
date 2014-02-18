@@ -3,4 +3,53 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight:400;
+	/* hex css color notation http://en.wikipedia.org/wiki/Web_colors*/
+	background: #EDEDED;
 }
+
+#nav-container {
+	/* importance of pixel perfect front end design http://blog.teamtreehouse.com/pixel-perfect-front-end-development-matters*/
+	/* don't be a pizel perfectionist http://blog.teamtreehouse.com/dont-be-a-pixel-perfectionist*/
+	height:100px;
+	min-width: 100%;
+}
+
+#hero-image-container {
+	/* position of file relative to css sheet http://stackoverflow.com/questions/17927825/css-background-image-wont-work*/
+	background: url('../img/bg_b.png')no-repeat center center fixed;
+  background-size: cover;
+	height: 415px;
+	min-width: 100%;
+	/* TRBL mnemonic for shorthand*/
+	margin: 0px -10px 0px -10px;
+}
+
+#ceo-quote-container {
+	height: 272px;
+	min-width: 100%;
+	border-bottom: 1px solid #D7D7D9;
+	/* extend border to edges of page */
+	margin: 0px -10px 0px -10px;
+}
+
+#feature-description-container {
+	height: 565px;
+	min-width: 100%;
+	border-bottom: 1px solid #D7D7D9;
+	/* extend border to edges of page */
+	margin: 0px -10px 0px -10px;
+}
+
+#culture-tagline-container {
+	height: 542px;
+	min-width: 100%;
+}
+
+#company-info-footer-container {
+	height: 352px;
+	min-width: 100%;
+	background: url('../img/bg_b.png')no-repeat center center fixed;
+  background-size: cover;
+  margin: 0px -10px 0px -10px;
+}
+
