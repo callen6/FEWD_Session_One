@@ -110,6 +110,35 @@ body {
 	color: white;
 }
 
+#circle-container {
+	margin-top: 105px;
+	margin-left: 690px;
+}
+
+#left-blue-circle{
+	display:inline-block;
+	background-color: #4DBCE8;
+	border-radius: 100px;
+	height: 11px;
+	width: 11px;
+}
+
+#white-circle {
+	display:inline-block;
+	background-color: white;
+	border-radius: 100px;
+	height: 11px;
+	width: 11px;
+}
+
+#right-blue-circle {
+	display:inline-block;
+	background-color: #4DBCE8;
+	border-radius: 100px;
+	height: 11px;
+	width: 11px;
+}
+
 #ceo-quote-container {
 	height: 272px;
 	min-width: 100%;
@@ -184,7 +213,7 @@ body {
 	height: 320px;
 	width: 440px;
 	display: inline-block;
-	margin-left: 225px;
+	margin-left: 280px;
 }
 
 .tagline-title {
