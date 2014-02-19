@@ -76,7 +76,7 @@ body {
 }
 
 #right-arrow img {
-	padding: 10px 5px 10px 5px;
+	padding: 10px 0px 10px 10px;
 }
 
 #hero-text-container {
@@ -104,18 +104,13 @@ body {
 	border-bottom: 1px solid #D7D7D9;
 	/* extend border to edges of page */
 	margin: 0px -10px 0px -10px;
-	/* responsively align ceo-quote vertically http://stackoverflow.com/questions/396145/whats-the-best-way-of-centering-a-div-vertically-with-css?lq=1*/
-	display: table;
-  position: absolute;
 }
 
 #ceo-quote {
+	padding-top: 80px;
 	margin: auto;
 	font-size: 32px;
 	text-align: center;
-	/*responsively align ceo-quote vertically */
-	display: table-cell;
-  vertical-align: middle;
 }
 
 #ceo-quote-ital {
@@ -134,6 +129,39 @@ body {
 	margin: 0px -10px 0px -10px;
 }
 
+#features-container {
+
+}
+
+.features {
+	display: inline-block;
+	width: 250px;
+	height: 410px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+#feature1 {
+	margin-left: 290px;
+}
+
+#feature2 {
+	margin-left: 65px;
+}
+
+#feature3 {
+	margin-left: 65px;
+}
+
+.feature-title {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.feature-text {
+	text-align: left;
+}
 #culture-tagline-container {
 	height: 542px;
 	min-width: 100%;
