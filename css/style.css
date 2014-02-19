@@ -225,4 +225,20 @@ body {
   background-size: cover;
   margin: 0px -10px 0px -10px;
 }
+ #company-info-table {
+ 	color: rgba(255, 255, 255, 0.75);
+ 	font-size: 18px;
+ 	margin: 0 auto;
+ 	padding-top: 65px;
+/* 	https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing
+ 	http://stackoverflow.com/questions/339923/how-to-set-cellpadding-and-cellspacing-in-css*/
+ 	border-spacing: 90px 10px;
+  border-collapse: separate;
+ }
+
+
+
+
+
+
 
