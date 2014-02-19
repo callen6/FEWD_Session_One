@@ -35,12 +35,24 @@ body {
 	display: inline-block;
 	width: 75px;
 	height: 20px;
-	margin-bottom: 35px;
+	padding-bottom: 35px;
 	text-align: center;
 }
 
 #demos {
 	color: #1D698A;
+}
+
+#log-in {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	height: 25px;
+	width: 83px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 2px;
 }
 
 #hero-image-container {
@@ -162,10 +174,49 @@ body {
 .feature-text {
 	text-align: left;
 }
+
 #culture-tagline-container {
 	height: 542px;
 	min-width: 100%;
 }
+
+#exciting-tagline-container {
+	height: 320px;
+	width: 440px;
+	display: inline-block;
+	margin-left: 225px;
+}
+
+.tagline-title {
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+}
+
+.tagline-text {
+	text-align: left;
+}
+
+#learn-more-button {
+	font-size: 25px;
+	color:white;
+	background-color: black;
+	border-radius: 50px;
+	height: 45px;
+	width: 190px;
+	padding-left: 45px;
+	padding-top: 10px;
+}
+
+#learn-more-button img {
+	padding-left: 30px;
+}
+
+ #iphone-container {
+ 	padding-top: 85px;
+ 	display: inline-block;
+ 	margin-left: 74px;
+ }
 
 #company-info-footer-container {
 	height: 352px;
