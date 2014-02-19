@@ -14,6 +14,35 @@ body {
 	min-width: 100%;
 }
 
+#logo {
+	margin-top: 15px;
+	margin-left: 200px;
+	display: inline-block;
+}
+
+#logo img {
+	height: 56px;
+	width: 125px;
+}
+
+#nav-buttons-container  {
+	display: inline-block;
+	margin-left: 340px;
+}
+
+.nav-button {
+	font-size: 17px;
+	display: inline-block;
+	width: 75px;
+	height: 20px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+#demos {
+	color: #1D698A;
+}
+
 #hero-image-container {
 	/* position of file relative to css sheet http://stackoverflow.com/questions/17927825/css-background-image-wont-work*/
 	background: url('../img/bg_b.png')no-repeat center center fixed;
@@ -24,12 +53,77 @@ body {
 	margin: 0px -10px 0px -10px;
 }
 
+#left-arrow {
+	display: inline-block;
+	background-color: black;
+	height: 50px;
+	width: 60px;
+	float: left;
+	margin-top: 170px;
+}
+
+#left-arrow img {
+	padding: 10px 5px 10px 5px;
+}
+
+#right-arrow {
+	display: inline-block;
+	background-color: black;
+	height: 50px;
+	width: 60px;
+	float: right;
+	margin-top: 170px;
+}
+
+#right-arrow img {
+	padding: 10px 5px 10px 5px;
+}
+
+#hero-text-container {
+	padding-top: 100px;
+	display: inline-block;
+	margin-left: 500px;
+}
+
+#hello-text {
+	text-align: center;
+	font-size: 100px;
+	color: white;
+	font-weight: bold;
+}
+
+#fancy-startup-text {
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
 #ceo-quote-container {
 	height: 272px;
 	min-width: 100%;
 	border-bottom: 1px solid #D7D7D9;
 	/* extend border to edges of page */
 	margin: 0px -10px 0px -10px;
+	/* responsively align ceo-quote vertically http://stackoverflow.com/questions/396145/whats-the-best-way-of-centering-a-div-vertically-with-css?lq=1*/
+	display: table;
+  position: absolute;
+}
+
+#ceo-quote {
+	margin: auto;
+	font-size: 32px;
+	text-align: center;
+	/*responsively align ceo-quote vertically */
+	display: table-cell;
+  vertical-align: middle;
+}
+
+#ceo-quote-ital {
+	font-style: italic;
+}
+
+#ceo-quote-bold {
+	font-weight: bold;
 }
 
 #feature-description-container {
